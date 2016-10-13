@@ -8,7 +8,7 @@ $subscriptionId = "cc1624c7-3f1d-4ed3-a855-668a86e96ad8"
 $location = 'chinaeast'
 $ResourceGroupName = 'sshconnect'
 $keyVaultName = 'sshconnectkv'
-$keySecretName = 'sshkey'
+$keySecretName = [Environment]::UserName
 $defaultkeyfile = 'C:\Users\andliu\OneDrive - Microsoft\SSHCert\certinuse\privatekey'
 $tempKeyPath = ".\privatekey"
 
